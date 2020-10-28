@@ -3,7 +3,7 @@ const express = require("express");
 const fs = require("fs");
 const uuid = require("uuid/v1");
 const path = require("path");
-// Sets up the Express App and identifies port 3000
+// Sets up the Express App and gets port 3000 from the bound environment variable
 const app = express();
 const PORT = process.env.PORT || 3000;
 const mainDir = path.join(__dirname, "/public");
