@@ -16,7 +16,13 @@ ___
  This is a command-line app that generates a Note Taker webpage allowing a user to view notes, write new notes to save, or delete previously saved notes.
 _____
 ## Layout:
-The app will direct the user to the Note Taker (index.html) page.The user can then press the **Get Started** button, and will be re-directed to the Notes (notes.html) page. A **Note Title** is added by clicking in the Note Title text area, and adding text to represent a title.  **Note Text** is added by clicking in the Note Text area, and adding additional information. The added Title and Text are saved by clicking on the save icon in the upper right portion of the viewport. Notes can be viewed by clicking on the Note Title(s) located on the left column in the viewport. The selected Note Title and Text are then displayed on the right column in the viewport. Notes can also be added by clicking on the pencil icon in the upper right portion of the viewport. Note Title and Text can be deleted by clicking the trashcan icon on the far right side of the left column in the viewport.
+The app will direct the user to the Note Taker (index.html) page. The user can then press the **Get Started** button, and will be re-directed to the Notes (notes.html) page.  
+A **Note Title** is added by clicking in the Note Title text area, and adding text to represent a title.  
+A **Note Text** is added relative to the Title by clicking in the Note Text area, and adding additional information.   
+The added Title and Text are saved by clicking on the save icon in the upper right portion of the viewport.   
+Notes can be viewed by clicking on the Note Title(s) located on the left column in the viewport. The selected Note Title and Text are then displayed on the right column in the viewport.   
+Notes can also be added by clicking on the pencil icon in the upper right portion of the viewport.   
+Note Title and Text can be deleted by clicking the trashcan icon on the far right side of the left column in the viewport.
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
@@ -29,7 +35,7 @@ _____
 This App allows the user to write, save, and delete notes on a webpage. 
 _____
 ## Contributing
-ed-sivick, Stack Overflow, Grepper, BCS support for functionality and code syntax
+ed-sivick, Stack Overflow, Grepper, BCS support for functionality, code syntax, and Heroku deployment instruction
 _____
 ## Questions
 If there are any questions, or if you would prefer more information concerning this app,
