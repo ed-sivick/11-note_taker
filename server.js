@@ -7,7 +7,6 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const mainDir = path.join(__dirname, "/public");
-
 // Express app that will handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -70,11 +69,6 @@ app.delete("/api/notes/:id", function (req, res) {
     });
     res.send(JSON.parse(savedNotes));
 
-});
-
-// use GET Route to send to home page if user types an un-identified route
-app.get("*", function (req, res) {
-    res.sendFile(path.join(mainDir, "index.html"));
 });
 
 // Starts server to listen on port 3000
