@@ -13,10 +13,10 @@ ___
 * [Questions](#questions)
 * [Application_Links_and_Images](#application_links_and_images)
 ## Description:
- This is a command-line app that generates an Note Taker webpage allowing a user to view notes, write new notes to save, or delete previously saved notes.
+ This is a command-line app that generates a Note Taker webpage allowing a user to view notes, write new notes to save, or delete previously saved notes.
 _____
 ## Layout:
-The app will direct the user to the Note Taker (index.html) page.The user can then press the **Get Started** button, and be re-directed to the Notes (notes.html) page. A **Note Title** is added by clicking in the text field, and adding information.  **Note Text** is added by clicking in the Note Text area, and adding additional information. The added Title and Text are saved by clicking on the save icon in the upper right portion of the viewport. Notes can be viewed by clicking on the Note Title(s) located on the left column in the viewport. Notes can also be added by clicking on the pencil icon in the upper right portion of the viewport. The selected Note Title and Text is then displayed on the right column in the viewport.  Note Title/Text can be deleted by clicking the trashcan icon on the right side of the left column in the viewport.
+The app will direct the user to the Note Taker (index.html) page.The user can then press the **Get Started** button, and will be re-directed to the Notes (notes.html) page. A **Note Title** is added by clicking in the text field, and adding text for a title.  **Note Text** is added by clicking in the Note Text area, and adding additional information. The added Title and Text are saved by clicking on the save icon in the upper right portion of the viewport. Notes can be viewed by clicking on the Note Title(s) located on the left column in the viewport. Notes can also be added by clicking on the pencil icon in the upper right portion of the viewport. The selected Note Title and Text are then displayed on the right column in the viewport.  Note Title/Text can be deleted by clicking the trashcan icon on the right side of the left column in the viewport.
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
@@ -49,15 +49,15 @@ Heroku link: (https://drive.google.com/drive/folders/1NYOUC753-tOwGsph15YaXhfiIK
 
 **Application Image Examples:** Hover the mouse over each image for a brief description.
 <p align="left">
-  <img src="public/assets/images/index1.png" width="350" title="image of index.html page" alt="image of index.html page">
+  <img src="public/assets/images/index1.png" width="800" title="image of index.html page" alt="image of index.html page">
   </p>
   <p align="left">
-  <img src="public/assets/images/note-display1.png" width="350" title="image of notes.html page" alt="image of notes.html page">
+  <img src="public/assets/images/note-display1.png" width="800" title="image of notes.html page" alt="image of notes.html page">
   </p>
   
   <p align="left">
-  <img src="public/assets/images/indnote-display1.png" width="350" margin-bottom: 10px; title="image of notes.html page" alt="image of notes.html page">
+  <img src="public/assets/images/indnote-display1.png" width="800" margin-bottom: 10px; title="image of notes.html page" alt="image of notes.html page">
   </p>
   <p align="left">
-  <img src="public/assets/images/note-save1.png" width="350" title="image of notes.html page" alt="image of notes.html page">
+  <img src="public/assets/images/note-save1.png" width="800" title="image of notes.html page" alt="image of notes.html page">
   </p>
