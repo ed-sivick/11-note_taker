@@ -20,7 +20,10 @@ The app will direct the user to the Note Taker (index.html) page.The user can th
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
-(2) Invoke the app by going to the server.js file, open in integrated terminal, and type: **node server.js**    
+(2) Invoke the app by going to the server.js file, open in integrated terminal, and type: **node server.js** 
+(3) Open a webpage and type into the url: **http://localhost:3000**   
+(4) The terminal will console log when: **The user saved a note to file**   
+(5) The terminal will console log when: **The user deleted a note from file**   
 _____
 ## Usage
 This App allows the user to write, save, and delete notes on a webpage. 

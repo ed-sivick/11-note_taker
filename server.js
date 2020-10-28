@@ -38,7 +38,7 @@ app.post("/api/notes", function (req, res) {
     // create writeFile function to save user's notes with JSON parse  
     fs.writeFile("./db/db.json", savedNotes, "utf8", (err) => {
         if (err) throw err;
-        console.log("A note was saved to file");
+        console.log("The user saved a note to file");
         res.json(JSON.parse(savedNotes));
     });
 
@@ -65,7 +65,7 @@ app.delete("/api/notes/:id", function (req, res) {
     // create writeFile function for saved notes, throws error if note was deleted   
     fs.writeFile("./db/db.json", savedNotes, "utf8", (err) => {
         if (err) throw err;
-        console.log("A note was deleted from file");
+        console.log("The user deleted a note from file");
     });
     res.send(JSON.parse(savedNotes));
 
