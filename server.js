@@ -6,7 +6,6 @@ const path = require("path");
 // Sets up the Express App and gets port 3000 from the bound environment variable
 const app = express();
 const PORT = process.env.PORT || 3000;
-const mainDir = path.join(__dirname, "/public");
 // Express app that will handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -14,12 +13,12 @@ app.use(express.static("public"));
 
 // Route that sends the user to the index page
 app.get("/", function (req, res) {
-    res.sendFile(path.join(mainDir, "index.html"));
+    res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 // Route that sends the user to the notes page
 app.get("/notes", function (req, res) {
-    res.sendFile(path.join(mainDir, "notes.html"));
+    res.sendFile(path.join(__dirname, "public/notes.html"));
 });
 
 // Route to POST notes
